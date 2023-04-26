@@ -1,0 +1,71 @@
+@media(max-width:768px){
+  .logo a img{
+    width: 130px;
+}
+.text_box h1{
+  font-size: 32px;
+  letter-spacing: -1px;
+}
+input[type=email]{
+  width: 100%
+}
+.started span{
+  display: none;
+}
+.started button{
+  width: 40%;
+  margin-top: 2em;
+}
+.enjoy, .watch, .kid, .save{
+  height: auto;
+  position: relative;
+}
+.inner {
+  width: 90%;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  text-align: center;
+  margin: auto;
+}
+/* 순서변경 */
+.watch .desc, .save .desc{
+  order: 1;
+}
+.watch .preview, .save .preview{
+  order: 2;
+}
+.desc{
+  margin: 3em;
+}
+.desc h2{
+  font-size: 28px;
+}
+.desc p{
+  font-size: 16px;
+}
+.priview img{
+  width: 80%;
+  text-align: center;
+}
+.faq_inner{
+  width: 100%;
+  font-size: 16px;
+  margin: auto;
+}
+.faq_inner h2{
+  font-size: 28px;
+}
+.ready p{
+  font-size: 25px;
+}
+.ready button{
+  width: 40%;
+  margin-top: 2em;
+}
+.footer_inner{
+  width: 80%;
+  font-size: 14px;
+} 
